@@ -17,4 +17,3 @@ Scenario: El administrador crea de manera sastifactoria la categoria de pago del
 	Given que el usuario se encuentra en la vista "Configuracion" 
 	When el usuario quiere registrar una nueva categoria de pago.
 	Then la aplicación le mostrara un mensaje diciendo "Su registro de categoria de pago fue exitoso"
-
